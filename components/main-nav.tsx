@@ -13,7 +13,6 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from '@/components/ui/navigation-menu';
-import { ThemeToggle } from './theme-toggle';
 import { services } from '@/content/services';
 
 export function MainNav() {
