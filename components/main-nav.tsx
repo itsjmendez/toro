@@ -3,17 +3,14 @@
 import * as React from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { siteConfig } from '@/config/site';
 import { cn } from '@/lib/utils';
 import {
   NavigationMenu,
   NavigationMenuContent,
-  NavigationMenuIndicator,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-  NavigationMenuViewport,
   navigationMenuTriggerStyle,
 } from '@/components/ui/navigation-menu';
 import { ThemeToggle } from './theme-toggle';
@@ -34,19 +31,16 @@ export const LargeMenuItem = () => {
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <Link
-            href="/"
-            legacyBehavior
-            passHref
-            className={cn(
-              'transition-colors hover:text-foreground/80',
-              pathname?.startsWith('/services')
-                ? 'text-foreground'
-                : 'text-foreground/60'
-            )}
-          >
+          <Link href="/" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Home
+              <h3
+                className={cn(
+                  'transition-colors hover:text-foreground/80',
+                  pathname === '/' ? 'text-foreground' : 'text-foreground/60'
+                )}
+              >
+                Home
+              </h3>
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
@@ -59,7 +53,18 @@ export const LargeMenuItem = () => {
                 : 'text-foreground/60'
             )}
           >
-            Services
+            <Link href="/services" legacyBehavior passHref>
+              <h3
+                className={cn(
+                  'transition-colors hover:text-foreground/80',
+                  pathname?.startsWith('/services')
+                    ? 'text-foreground'
+                    : 'text-foreground/60'
+                )}
+              >
+                Services
+              </h3>
+            </Link>
           </NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-4 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
