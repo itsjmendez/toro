@@ -128,9 +128,6 @@ export const LargeMenuItem = () => {
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
-        <NavigationMenuItem>
-          <ThemeToggle />
-        </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
   );
