@@ -10,7 +10,7 @@ export const projects: Project[] = [
   {
     title: 'Robinson Law Firm',
     description:
-      'With over 50 years of fighting for the rights of clients in St. Clair County and surrounding counties. The Robinson Law Firm P.C. is committed to protecting your rights and providing legal guidance.',
+      'RLF Law is a law firm that offers a broad range of legal services tailored to meet the needs of their clients. ',
     tasks: ['SEO', 'Brand Messaging', 'Website Development'],
   },
   {
