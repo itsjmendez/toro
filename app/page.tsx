@@ -10,6 +10,8 @@ import {
 } from '@/components/ui/card';
 import { projects } from '@/content/projects';
 import { Badge } from '@/components/ui/badge';
+import Link from 'next/link';
+import { buttonVariants } from '@/components/ui/button';
 
 export default function Home() {
   return (
@@ -50,6 +52,17 @@ export default function Home() {
                       ))}
                     </ul>
                   </CardContent>
+                  <CardFooter className="w-full text-end">
+                    <Link
+                      href={'/'}
+                      className={`px-0 ${buttonVariants({
+                        variant: 'link',
+                        size: 'sm',
+                      })}`}
+                    >
+                      Learn More
+                    </Link>
+                  </CardFooter>
                 </Card>
               </div>
             ))}
