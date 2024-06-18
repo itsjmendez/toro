@@ -75,6 +75,10 @@ const config = {
       fontSize: {
         '10xl': '10rem',
       },
+      fontFamily: {
+        sans: ['var(--font-geist-sans)'],
+        mono: ['var(--font-geist-mono)'],
+      },
     },
   },
   plugins: [require('tailwindcss-animate')],
