@@ -1,10 +1,8 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
 import './globals.css';
 import { ThemeProvider } from '@/components/theme-provider';
 import SiteHeader from '@/components/site-header';
-
-const inter = Inter({ subsets: ['latin'] });
+import { GeistSans } from 'geist/font/sans';
 
 export const metadata: Metadata = {
   title: 'Toro Consulting',
@@ -18,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={GeistSans.className}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

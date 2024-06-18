@@ -18,27 +18,27 @@ export default function Home() {
     <main>
       <HeroSection />
       <div>
-        <div className="container my-20">
-          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
-            Add growth to your business
-          </h1>
-          <p className="leading-7 [&:not(:first-child)]:mt-6">
-            As your marketing growth partner, we use data, digital marketing,
-            creative and messaging to attract, engage, convert and retain
-            customers.
-          </p>
+        <div className="container my-20 flex flex-col gap-4">
+          <h2 className="scroll-m-20 text-4xl font-semibold tracking-tight lg:text-5xl">
+            The full cycle strategy team you need
+          </h2>
+          <h3 className="text-xl">
+            We use data, digital marketing, creative and messaging to attract,
+            engage, convert and retain customers.
+          </h3>
         </div>
-        <Separator />
       </div>
+      <Separator />
+      {/* Recent Projects Section */}
       <div>
-        <div className="container my-20">
-          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
+        <div className="container my-20 flex flex-col gap-4">
+          <h2 className="scroll-m-20 text-4xl font-semibold tracking-tight lg:text-5xl">
             Our recent projects
-          </h1>
-          <div className=" grid sm:grid-cols-2 md:grid-cols-3 gap-4 [&:not(:first-child)]:mt-6">
+          </h2>
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
             {projects.map((project) => (
               <div key={project.title}>
-                <Card className="w-full">
+                <Card className="w-full md:min-h-80 justify-between flex flex-col">
                   <CardHeader>
                     <CardTitle>{project.title}</CardTitle>
                     <CardDescription>{project.description}</CardDescription>
@@ -69,6 +69,13 @@ export default function Home() {
           </div>
         </div>
         <Separator />
+        {/* Services Section */}
+        <div className="container my-20 flex flex-col gap-4">
+          <h2 className="scroll-m-20 text-4xl font-semibold tracking-tight lg:text-5xl">
+            What part of your business needs growth?
+          </h2>
+          <h3>Explore our marketing services</h3>
+        </div>
       </div>
     </main>
   );
