@@ -45,7 +45,7 @@
     --popover: 240 10% 3.9%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 0 0% 98%;
+    --primary: 72 86% 63%;
     --primary-foreground: 240 5.9% 10%;
 
     --secondary: 240 3.7% 15.9%;
@@ -62,7 +62,7 @@
 
     --border: 240 3.7% 15.9%;
     --input: 240 3.7% 15.9%;
-    --ring: 240 4.9% 83.9%;
+    --ring: 72 86% 63%;
   }
 }
 
@@ -73,4 +73,55 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Color Theme Swatches in Hex */
+.toro-04-1-hex {
+  color: #525259;
+}
+.toro-04-2-hex {
+  color: #212226;
+}
+.toro-04-3-hex {
+  color: #cff250;
+}
+.toro-04-4-hex {
+  color: #e2f263;
+}
+.toro-04-5-hex {
+  color: #f2e96b;
+}
+
+/* Color Theme Swatches in RGBA */
+.toro-04-1-rgba {
+  color: rgba(82, 82, 89, 1);
+}
+.toro-04-2-rgba {
+  color: rgba(33, 34, 38, 1);
+}
+.toro-04-3-rgba {
+  color: rgba(207, 242, 80, 1);
+}
+.toro-04-4-rgba {
+  color: rgba(226, 242, 99, 1);
+}
+.toro-04-5-rgba {
+  color: rgba(242, 233, 107, 1);
+}
+
+/* Color Theme Swatches in HSLA */
+.toro-04-1-hsla {
+  color: hsla(240, 4, 33, 1);
+}
+.toro-04-2-hsla {
+  color: hsla(228, 7, 13, 1);
+}
+.toro-04-3-hsla {
+  color: hsla(72, 86, 63, 1);
+}
+.toro-04-4-hsla {
+  color: hsla(66, 84, 66, 1);
+}
+.toro-04-5-hsla {
+  color: hsla(56, 83, 68, 1);
 }
