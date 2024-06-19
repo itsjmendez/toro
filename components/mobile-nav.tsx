@@ -18,7 +18,11 @@ const MobileNav = () => {
     <div className=" md:hidden">
       <Sheet>
         <SheetTrigger>
-          <Menu className="h-[1.4rem] w-[1.4rem]" />
+          <div className="flex flex-row gap-1 text-primary font-semibold uppercase">
+            {/* Icon to open mobile navigation menu */}
+            {/* <Menu className="h-[1.4rem] w-[1.4rem]" /> */}
+            <span>Menu</span>
+          </div>
         </SheetTrigger>
         <SheetContent side={'left'} className="border-none">
           <SheetHeader className="text-start">
