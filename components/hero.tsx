@@ -8,21 +8,21 @@ export function HeroSection() {
   return (
     <div>
       <div className="my-10 md:my-20 flex flex-col gap-4">
-        <div className="container flex flex-col gap-4">
-          <h1 className="font-semibold tracking-tight text-5xl sm:text-8xl md:text-9xl lg:text-10xl uppercase">
+        <div className="flex flex-col gap-4">
+          <h1 className="container font-semibold tracking-tight text-5xl sm:text-8xl md:text-9xl lg:text-10xl uppercase">
             Toro Marketing
           </h1>
-          <h3 className="text-3xl font-normal tracking-tight first:mt-0 text-muted-foreground font-mono">
+          <div className="w-full h-96 relative md:hidden">
+            <Image
+              fill={true}
+              src={'/el-toro.jpg'}
+              alt="Bull"
+              style={{ objectFit: 'cover' }}
+            />
+          </div>
+          <h3 className="container text-3xl font-normal tracking-tight first:mt-0 text-muted-foreground font-mono">
             Grow Your Business
           </h3>
-        </div>
-        <div className="w-full h-48 sm:h-96 relative md:hidden">
-          <Image
-            fill={true}
-            src={'/toroB&W.jpg'}
-            alt="Bull"
-            style={{ objectFit: 'cover' }}
-          />
         </div>
         <div className="container flex-row gap-4 flex md:items-center">
           <Link
