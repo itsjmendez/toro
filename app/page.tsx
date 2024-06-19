@@ -18,7 +18,7 @@ export default function Home() {
     <main>
       <HeroSection />
       <div>
-        <div className="container my-20 flex flex-col gap-4">
+        <div className="container my-10 md:my-20 flex flex-col gap-4">
           <h2 className="scroll-m-20 text-4xl font-semibold tracking-tight lg:text-5xl">
             The full cycle strategy team you need
           </h2>
@@ -31,7 +31,7 @@ export default function Home() {
       <Separator />
       {/* Recent Projects Section */}
       <div>
-        <div className="container my-20 flex flex-col gap-4">
+        <div className="container my-10 md:my-20 flex flex-col gap-4">
           <h2 className="scroll-m-20 text-4xl font-semibold tracking-tight lg:text-5xl">
             Our recent projects
           </h2>
@@ -70,7 +70,7 @@ export default function Home() {
         </div>
         <Separator />
         {/* Services Section */}
-        <div className="container my-20 flex flex-col gap-4">
+        <div className="container my-10 md:my-20 flex flex-col gap-4">
           <h2 className="scroll-m-20 text-4xl font-semibold tracking-tight lg:text-5xl">
             What part of your business needs growth?
           </h2>
