@@ -19,7 +19,7 @@ export function HeroSection() {
         <div className="w-full h-48 sm:h-96 relative md:hidden">
           <Image
             fill={true}
-            src={'/bullB&W.jpg'}
+            src={'/toroB&W.jpg'}
             alt="Bull"
             style={{ objectFit: 'cover' }}
           />
