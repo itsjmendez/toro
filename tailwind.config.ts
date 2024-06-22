@@ -76,8 +76,8 @@ const config = {
         '10xl': '10rem',
       },
       fontFamily: {
-        sans: ['var(--font-geist-sans)'],
-        mono: ['var(--font-geist-mono)'],
+        neueHaasGroteskDisplay: ['neue-haas-grotesk-display, sans-serif'],
+        neueHaasGroteskText: ['neue-haas-grotesk-text, sans-serif'],
       },
     },
   },

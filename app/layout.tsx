@@ -2,8 +2,6 @@ import type { Metadata } from 'next';
 import './globals.css';
 import { ThemeProvider } from '@/components/theme-provider';
 import SiteHeader from '@/components/site-header';
-import { GeistSans } from 'geist/font/sans';
-import { GeistMono } from 'geist/font/mono';
 
 export const metadata: Metadata = {
   title: 'Toro Consulting',
@@ -17,7 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${GeistSans.variable} ${GeistMono.variable}`}>
+      <head>
+        <link rel="stylesheet" href="https://use.typekit.net/niz3wqz.css" />
+      </head>
+      <body className="font-neueHaasGroteskText">
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

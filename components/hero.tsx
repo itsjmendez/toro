@@ -1,30 +1,28 @@
 import { buttonVariants } from '@/components/ui/button';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
-import { Separator } from './ui/separator';
 import Image from 'next/image';
 
-export function HeroSection() {
+export const HeroSection = () => {
   return (
-    <div>
-      <div className="my-10 md:my-20 flex flex-col gap-4">
-        <div className="flex flex-col gap-4">
-          <h1 className="container font-semibold tracking-tight text-5xl sm:text-8xl md:text-9xl lg:text-10xl uppercase">
-            Toro Marketing
-          </h1>
-          <div className="w-full h-96 relative md:hidden">
-            <Image
-              fill={true}
-              src={'/el-toro.jpg'}
-              alt="Bull"
-              style={{ objectFit: 'cover' }}
-            />
-          </div>
-          <h3 className="container text-3xl font-normal tracking-tight first:mt-0 text-muted-foreground font-mono">
-            Grow Your Business
-          </h3>
-        </div>
-        <div className="container flex-row gap-4 flex md:items-center">
+    <div className="relative h-[calc(100vh-3.5rem)] overflow-hidden">
+      <Image
+        fill={true}
+        src="/hero-bg-02.jpg"
+        alt="Background"
+        quality={100}
+        priority
+        style={{ objectFit: 'cover' }}
+      />
+      <div className="absolute inset-0 bg-black opacity-50"></div>
+      <div className="container relative z-10 flex flex-col gap-4 justify-center h-full">
+        <h1 className="font-semibold tracking-tight text-5xl sm:text-8xl md:text-9xl text-white">
+          Toro Marketing
+        </h1>
+        <h2 className="text-3xl md:text-4xl font-normal tracking-tight text-white">
+          Grow Your Business
+        </h2>
+        <div className="flex-row gap-4 flex md:items-center">
           <Link
             href={'/'}
             className={buttonVariants({
@@ -45,7 +43,6 @@ export function HeroSection() {
           </Link>
         </div>
       </div>
-      <Separator />
     </div>
   );
-}
+};
