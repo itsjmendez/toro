@@ -2,33 +2,33 @@ import { NavItem } from '@/types/nav';
 
 export const services: NavItem[] = [
   {
-    title: 'Marketing Business Operations',
-    href: '/services/marketing-business-operations',
-    description: 'Streamline and enhance your marketing operations.',
+    title: 'Web Services',
+    href: '/services/web-services',
+    description:
+      'Not happy with your website? We provide design strategy, web development and page optimization.',
   },
   {
     title: 'Digital Marketing',
     href: '/services/digital-marketing',
-    description: 'Elevate your online presence and drive engagement.',
+    description:
+      'Not getting enough reach? Increase online visibility with social media, video, audio, and blogging across organic and paid media.',
   },
   {
-    title: 'Martech and AI',
-    href: '/services/martech-ai',
-    description: 'Innovative Martech and AI integrations.',
+    title: 'Branding',
+    href: '/services/branding',
+    description:
+      'Need help telling your story? Position and establish your brand in the eyes of your consumers with compelling storytelling and visual identity.',
   },
   {
-    title: 'Strategy Analytics',
-    href: '/services/strategy-analytics',
-    description: 'Data-driven strategy development and analytics.',
+    title: 'Lifecycle',
+    href: '/services/lifecycle',
+    description:
+      'Need to boost revenue with your CRM? We provide strategies to help you cross-sell, retain and make your customers loyal.',
   },
   {
-    title: 'Brand, Messaging and Creative',
-    href: '/services/brand-messaging-creative',
-    description: 'Develop impactful brand messaging and content.',
-  },
-  {
-    title: 'Lifecycle Marketing',
-    href: '/services/lifecycle-marketing',
-    description: 'Foster and maintain strong customer relationships.',
+    title: 'Multicultural Marketing',
+    href: '/services/multicultural-marketing',
+    description:
+      'Looking to reach Spanish-speaking audiences? We provide authentic messaging that goes beyond direct translation, helping your brand resonate with Spanish-speaking customers.',
   },
 ];
