@@ -1,0 +1,78 @@
+[
+  {
+    "slug": "f45-training-lead-gen-campaign",
+    "title": "F45 Training Lead Gen Campaign",
+    "subheadline": "How Toro Marketing Stopped Customer Attrition and Boosted Lead Growth and Conversion",
+    "summary": "Toro Marketing teamed up with a holding company that owns multiple F45 Training studios across Alabama. Our goal: halt membership drop-offs and bring in fresh leads. We delved into their data and devised tailored strategies for each location, covering everything from boosting organic reach and running effective paid campaigns to managing CRM, and crafting compelling text and email marketing. Plus, we fine-tuned their pricing strategy to maximize results.",
+    "sections": [
+      {
+        "title": "Marketing Services",
+        "subheadline": "Our team provided the following services to F45 Training:",
+        "content:": [
+          "CRM Management",
+          "Outbound marketing",
+          "Digital Ad Management",
+          "Ad Creative Development",
+          "Customer Service support",
+          "Customer Journey Mapping Strategy",
+          "Positioning and pricing strategy"
+        ]
+      },
+      {
+        "title": "Software",
+        "subheadline": "We used the following software to manage F45 Training’s campaigns:",
+        "content": ["LoyalSnap CRM", "MindBody"]
+      },
+      {
+        "title": "Media Channels",
+        "subheadline": "Our team leveraged the following media channels to boost F45 Training’s reach:",
+        "content": [
+          "Paid Search Management (SEM)",
+          "Google Business Profile Management"
+        ]
+      },
+      {
+        "title": "Marketing Deliverables",
+        "subheadline": "Here’s what Toro Marketing delivered for F45 Training:",
+        "content": [
+          {
+            "name": "Local Brand Positioning and Ad Creative",
+            "description": "With multiple F45 Training locations across different cities, we tailored messages that resonated with specific local audiences, catering to everyone from full-time professionals to students on a budget."
+          },
+          {
+            "name": "Paid Search Management",
+            "description": "We crafted paid search ads featuring time-sensitive offers and strategically positioned them around F45’s unique value proposition of team building. This helped differentiate F45 from other gyms in the area quickly."
+          },
+          {
+            "name": "Google Store Management",
+            "description": "Our team enhanced growth opportunities through creative support, managing customer reviews, and updating content like images, FAQs, holiday hours, and more to keep the listings accurate and engaging."
+          },
+          {
+            "name": "CRM Management and Outbound Marketing",
+            "description": "We organized customer data meticulously, segmenting audiences for targeted messaging. Our strategies included win-back campaigns for lapsed members, retention efforts for at-risk customers, and tailored approaches for new and uncontacted customers alike."
+          },
+          {
+            "name": "Lead Conversion and Live Agent",
+            "description": "Implementing automated messaging and live agent support in the final sales stages, we reduced response times from days to seconds. Customers received quick answers to queries about services, pricing, and deals, along with reminders and follow-ups before and after their first class, ensuring a seamless experience."
+          }
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Get Started with Toro Marketing",
+      "subheadline": "Ready to boost your lead generation and conversion rates?",
+      "buttons": [
+        {
+          "text": "See other projects",
+          "link": "main menu work",
+          "href": "https://www.toromarketing.com/example-work"
+        },
+        {
+          "text": "Free Audit",
+          "link": "contact form",
+          "href": "https://www.toromarketing.com/example-contact"
+        }
+      ]
+    }
+  }
+]
