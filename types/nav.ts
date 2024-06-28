@@ -5,4 +5,5 @@ export interface NavItem {
   label?: string;
   description?: string;
   catchyLabel?: string;
+  icon?: React.ComponentType<any>;
 }
