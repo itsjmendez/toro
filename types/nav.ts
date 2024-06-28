@@ -4,4 +4,5 @@ export interface NavItem {
   disabled?: boolean;
   label?: string;
   description?: string;
+  catchyLabel?: string;
 }

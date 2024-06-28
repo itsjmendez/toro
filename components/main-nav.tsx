@@ -80,22 +80,6 @@ export const LargeMenuItem = () => {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/company" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              <h3
-                className={cn(
-                  'transition-colors hover:text-foreground/80',
-                  pathname?.startsWith('/company')
-                    ? 'text-foreground'
-                    : 'text-foreground/60'
-                )}
-              >
-                Company
-              </h3>
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
           <Link href="/work" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               <h3
