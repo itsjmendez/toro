@@ -124,7 +124,7 @@ export default function Home() {
           <div>
             {services.map((service) => (
               <div
-                className="border-t dark:shadow-muted grid grid-rows-1 md:grid-cols-8 items-start p-[2rem] gap-4 "
+                className="border-t grid grid-rows-1 md:grid-cols-8 items-start p-[2rem] gap-4 "
                 key={service.title}
               >
                 <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground"></div>
