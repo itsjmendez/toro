@@ -2,6 +2,12 @@ import { NavItem } from '@/types/nav';
 
 export const services: NavItem[] = [
   {
+    title: 'Multicultural Marketing',
+    href: '/services/multicultural-marketing',
+    description:
+      'Looking to reach Spanish-speaking audiences? We provide authentic messaging that goes beyond direct translation, helping your brand resonate with Spanish-speaking customers.',
+  },
+  {
     title: 'Web Services',
     href: '/services/web-services',
     description:
@@ -24,11 +30,5 @@ export const services: NavItem[] = [
     href: '/services/lifecycle',
     description:
       'Need to boost revenue with your CRM? We provide strategies to help you cross-sell, retain and make your customers loyal.',
-  },
-  {
-    title: 'Multicultural Marketing',
-    href: '/services/multicultural-marketing',
-    description:
-      'Looking to reach Spanish-speaking audiences? We provide authentic messaging that goes beyond direct translation, helping your brand resonate with Spanish-speaking customers.',
   },
 ];
