@@ -69,7 +69,7 @@ export default function Home() {
           <div className="grid sm:grid-cols-1 md:grid-cols-3">
             {projects.map((project) => (
               <div key={project.title}>
-                <Card className="w-full md:min-h-80 justify-between flex flex-col rounded-none border-0 border-t">
+                <Card className="w-full md:min-h-80 justify-between flex flex-col rounded-none border-0 border-t hover:bg-muted">
                   <CardHeader>
                     <CardTitle>{project.title}</CardTitle>
                     <CardDescription>{project.description}</CardDescription>
@@ -124,10 +124,12 @@ export default function Home() {
           <div>
             {services.map((service) => (
               <div
-                className="border-t dark:shadow-muted grid grid-rows-1 md:grid-cols-8 items-start p-[2rem] gap-4 "
+                className="border-t grid grid-rows-1 md:grid-cols-8 items-start p-[2rem] gap-4 hover:bg-muted"
                 key={service.title}
               >
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground"></div>
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground">
+                  {service.icon && <service.icon />}
+                </div>
                 <h3 className="text-2xl md:text-2xl font-bold col-span-2">
                   {service.title}
                 </h3>
