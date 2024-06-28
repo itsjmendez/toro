@@ -119,17 +119,19 @@ export const LargeMenuItem = () => {
 const ListItem = React.forwardRef<
   React.ElementRef<'a'>,
   React.ComponentPropsWithoutRef<'a'>
->(({ className, title, children, ...props }, ref) => {
+>(({ className, title, children, href, ...props }, ref) => {
   return (
-    <li>
-      <NavigationMenuLink asChild>
-        <a ref={ref} {...props}>
-          <div className="text-sm font-medium leading-none">{title}</div>
-          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-            {children}
-          </p>
-        </a>
-      </NavigationMenuLink>
+    <li className="hover:bg-muted p-2 rounded-sm">
+      <Link href={href ? href : '/'}>
+        <NavigationMenuLink asChild>
+          <a ref={ref} {...props}>
+            <div className="text-sm font-medium leading-none">{title}</div>
+            <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+              {children}
+            </p>
+          </a>
+        </NavigationMenuLink>
+      </Link>
     </li>
   );
 });
