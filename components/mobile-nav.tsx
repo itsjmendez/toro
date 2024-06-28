@@ -39,7 +39,7 @@ const MobileNav = () => {
             {services.map((service) => (
               <Link
                 key={service.title}
-                href="/services/"
+                href={service.href ? service.href : '/services'}
                 className="text-muted-foreground font-normal text-sm p-2"
               >
                 {service.title}
