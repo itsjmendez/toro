@@ -127,7 +127,9 @@ export default function Home() {
                 className="border-t grid grid-rows-1 md:grid-cols-8 items-start p-[2rem] gap-4 hover:bg-muted"
                 key={service.title}
               >
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground"></div>
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground">
+                  {service.icon && <service.icon />}
+                </div>
                 <h3 className="text-2xl md:text-2xl font-bold col-span-2">
                   {service.title}
                 </h3>
