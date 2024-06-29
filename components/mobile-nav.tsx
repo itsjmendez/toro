@@ -33,9 +33,9 @@ const MobileNav = () => {
           </SheetHeader>
           <nav className="flex flex-col space-y-2 pt-4 font-semibold">
             <Separator />
-            <Link href="/services">Home</Link>
+            <Link href="/">Home</Link>
             <Separator />
-            <Link href="/about">Services</Link>
+            <Link href="/services">Services</Link>
             {services.map((service) => (
               <Link
                 key={service.title}
