@@ -10,7 +10,7 @@ export const HeroSection = () => {
         fill={true}
         src="/hero-bg-01.jpg"
         alt="Background"
-        quality={100}
+        quality={80}
         priority
         style={{ objectFit: 'cover' }}
       />
