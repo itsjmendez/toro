@@ -1,8 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { ThemeProvider } from '@/components/theme-provider';
-import SiteHeader from '@/components/site-header';
-import SiteFooter from '@/components/site-footer';
 
 export const metadata: Metadata = {
   title: 'Toro Consulting',
@@ -26,9 +24,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <SiteHeader />
           {children}
-          <SiteFooter />
         </ThemeProvider>
       </body>
     </html>
