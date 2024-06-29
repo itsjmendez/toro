@@ -17,20 +17,20 @@ export const HeroSection = () => {
       <div className="absolute inset-0 bg-black opacity-50" />
       <div className="container relative z-10 flex flex-col gap-8 md:gap-12 justify-center h-full">
         <h1 className="font-semibold tracking-tight text-5xl md:text-7xl text-white uppercase max-w-[700px]">
-          Elevate Your Brand with Toro Marketing
+          Unlock Your Competitive Edge
         </h1>
         <h2 className="text-2xl md:text-4xl font-normal tracking-tight text-white">
-          Turn Your Vision into Reality
+          Marketing to Scale Your Business
         </h2>
         <div className="flex-col md:flex-row gap-4 flex md:items-center">
           <Link
-            href={'/'}
+            href={'/services'}
             className={`border-none rounded-none ${buttonVariants({
               variant: 'default',
               size: 'lg',
             })}`}
           >
-            Our Services
+            Our Solutions
           </Link>
           <Link
             href={'/'}
