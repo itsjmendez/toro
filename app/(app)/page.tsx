@@ -36,11 +36,12 @@ export default function IndexPage() {
           <span />
           <div className=" flex flex-col gap-8">
             <h2 className="px-[2rem] font-semibold tracking-tight text-4xl md:text-5xl lg:text-6xl">
-              The full cycle strategy team you need
+              Bring a cohesive consumer experience
             </h2>
             <h3 className="px-[2rem] text-xl">
-              We use data, digital marketing, creative and messaging to attract,
-              engage, convert and retain customers.
+              Attract, engage, convert and retain customers with ease. We bring
+              our experts to activate your brand with more touchpoints, creating
+              a seamless integration into your brand’s mix.
             </h3>
           </div>
           <span />
