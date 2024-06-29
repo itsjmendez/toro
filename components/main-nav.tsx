@@ -126,7 +126,7 @@ const ListItem = React.forwardRef<
         <NavigationMenuLink asChild>
           <a ref={ref} {...props}>
             <div className="text-sm font-medium leading-none">{title}</div>
-            <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+            <p className="mt-2 line-clamp-2 text-sm leading-snug text-muted-foreground">
               {children}
             </p>
           </a>
