@@ -60,7 +60,7 @@
     "title": "Web Services",
     "subHeadline": "Your online presence is our commitment to digital excellence.",
     "intro": "At Toro Marketing, we leverage our technical and creative expertise to elevate your brand and drive business growth through powerful websites.",
-    "primaryCta": {
+    "cta": {
       "header": "Curious about how your current website measures up?",
       "subheader": "Start today with a free website audit for insightful information.",
       "btnText": "Get Free Website Audit Now",
