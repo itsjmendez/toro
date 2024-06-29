@@ -143,7 +143,6 @@ export default function IndexPage() {
           </div>
         </div>
       </div>
-      {/* CTA */}
       <Separator />
       {/* Spacer */}
       <div className="container">
@@ -157,7 +156,7 @@ export default function IndexPage() {
         </div>
       </div>
       <Separator />
-      <Cta text="Get Started Today" />
+      <Cta header="Get Started Today" />
     </>
   );
 }
