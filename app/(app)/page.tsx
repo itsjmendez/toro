@@ -70,16 +70,23 @@ export default function IndexPage() {
           <div className="grid sm:grid-cols-1 md:grid-cols-3">
             {projects.map((project) => (
               <div key={project.title}>
-                <Card className="w-full md:min-h-80 justify-between flex flex-col rounded-none border-0 border-t md:hover:bg-muted">
+                <Card className="w-full md:min-h-80 justify-between flex flex-col rounded-none border-0 border-t md:hover:bg-muted shadow-none">
                   <CardHeader>
                     <CardTitle>{project.title}</CardTitle>
-                    <CardDescription>{project.description}</CardDescription>
+                    <CardDescription className="text-xl md:line-clamp-2">
+                      {project.description}
+                    </CardDescription>
                   </CardHeader>
                   <CardContent>
                     <ul>
                       {project.tasks?.map((task) => (
                         <li key={task}>
-                          <Badge variant="outline">{task}</Badge>
+                          <Badge
+                            variant="outline"
+                            className="rounded-none text-sm font-semibold mt-2"
+                          >
+                            {task}
+                          </Badge>
                         </li>
                       ))}
                     </ul>
