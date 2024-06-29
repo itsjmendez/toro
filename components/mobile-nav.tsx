@@ -9,7 +9,7 @@ import {
 import { Menu } from 'lucide-react';
 import Link from 'next/link';
 import { Separator } from '@/components/ui/separator';
-import { services } from '@/content/services';
+import { services } from '@/constants/services';
 import { buttonVariants } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 
