@@ -13,7 +13,7 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from '@/components/ui/navigation-menu';
-import { services } from '@/content/services';
+import { services } from '@/constants/services';
 
 export function MainNav() {
   return (
