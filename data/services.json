@@ -1,0 +1,148 @@
+{
+  "multicultural-marketing": [
+    {
+      "id": "multicultural-marketing",
+      "title": "Multicultural Marketing",
+      "subHeadline": "Embracing diversity, empowering connection",
+      "intro": "At Toro Marketing, we develop effective multicultural marketing strategies that connect brands with Hispanic and Spanish-speaking audiences.",
+      "cta": {
+        "header": "Ready to assess if your website is ready for Spanish-speaking audiences?",
+        "subheader": "Start with a free website audit to get valuable insights today",
+        "btnText": "Get a free website audit now",
+        "link": "#"
+      },
+      "contentSection": [
+        {
+          "header": "",
+          "description": "",
+          "contentBlocks": [
+            {
+              "title": "Here’s what you can expect from our multicultural marketing solutions",
+              "description": ""
+            },
+            {
+              "title": "Cultural Insights and Research",
+              "description": "We dive deep into cultural insights through research to tailor marketing strategies that truly resonate with Hispanic and Spanish-speaking audiences."
+            },
+            {
+              "title": "Spanish Language Content Development and Translation",
+              "description": "Create compelling content in Spanish to effectively engage Hispanic and Spanish-speaking communities."
+            },
+            {
+              "title": "Diverse Media and Outreach",
+              "description": "We leverage diverse paid and organic media channels, along with culturally relevant outreach strategies, to reach and connect with Hispanic and Spanish-speaking audiences effectively."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "header": "Toro Multicultural Marketing Solutions FAQ",
+          "description": "",
+          "questions": [
+            {
+              "question": "How does Toro Marketing connect with Hispanic and Spanish-speaking audiences better than other agencies?",
+              "answer": "At Toro Marketing, our diverse team and bilingual staff really get the cultural nuances. This helps us create strategies that truly resonate with Hispanic and Spanish-speaking audiences."
+            },
+            {
+              "question": "Why choose Toro Marketing for multicultural marketing?",
+              "answer": "We dig deep with brand research to connect directly with Hispanic audiences. Our team includes bilingual staff who not only speak the language but understand the cultural nuances, especially in Latin American cultures."
+            },
+            {
+              "question": "Does my business need multicultural Spanish marketing?",
+              "answer": "Absolutely! The Hispanic population is growing fast, so tapping into multicultural Spanish marketing can really boost your reach and impact with these expanding audiences."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "web-services": [
+    {
+      "id": "web-services",
+      "title": "Web Services",
+      "subHeadline": "Your online presence is our commitment to digital excellence.",
+      "intro": "At Toro Marketing, we leverage our technical and creative expertise to elevate your brand and drive business growth through powerful websites.",
+      "primaryCta": {
+        "header": "Curious about how your current website measures up?",
+        "subheader": "Start today with a free website audit for insightful information.",
+        "btnText": "Get Free Website Audit Now",
+        "link": "/"
+      },
+      "contentSection": [
+        {
+          "header": "",
+          "description": "",
+          "contentBlocks": [
+            {
+              "title": "Here's what you can look forward to when your website is delivered",
+              "description": ""
+            },
+            {
+              "title": "Responsive Design",
+              "description": "We ensure your website content and design work seamlessly on all devices – desktops, tablets, and smartphones."
+            },
+            {
+              "title": "SEO and Search Friendly",
+              "description": "We research keywords, online trends, and content to align with your customers’ searches, boosting your visibility on search engines and AI language models."
+            },
+            {
+              "title": "Fast Load Times",
+              "description": "We specialize in optimizing load speeds to capture customer attention quickly, reduce bounce rates, and increase conversions."
+            },
+            {
+              "title": "Testing and Quality Assurance",
+              "description": "Before launch, your website undergoes rigorous testing and quality checks to ensure a polished, professional final product."
+            }
+          ]
+        },
+        {
+          "header": "What does the step-by-step web development process look like?",
+          "description": "Discover our streamlined four-phase process for enhancing your website, from defining your business objectives to launching the improved site live.",
+          "contentBlocks": [
+            {
+              "title": "Phase I: Discovery and Project Plan",
+              "description": "We define clear goals, conduct research, develop customer personas, and choose the best technologies like WordPress or others."
+            },
+            {
+              "title": "Phase II: Budget Approval",
+              "description": "Present a detailed budget aligned with project goals and timeline for your approval."
+            },
+            {
+              "title": "Phase III: Project Management",
+              "description": "Create all creative elements – photography, videos, mockups, and wireframes – to refine your website's visual appeal and functionality."
+            },
+            {
+              "title": "Phase IV: Quality Assurance",
+              "description": "Thorough testing across platforms ensures optimal performance and addresses final adjustments."
+            }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "header": "Toro Web Services FAQs",
+          "description": "",
+          "questions": [
+            {
+              "question": "What software will be used to develop my website?",
+              "answer": "We use a variety of software solutions tailored to your company's needs and industry. Most commonly, our clients opt for WordPress due to its flexibility and extensive customization options."
+            },
+            {
+              "question": "How much input do I have in the website development process?",
+              "answer": "You have complete ownership. We facilitate open communication and provide step-by-step mockups and wireframes for your approval."
+            },
+            {
+              "question": "Why choose Toro Marketing over other agencies?",
+              "answer": "Our integrated team, led by founders with technical and creative backgrounds, brings extensive experience from Fortune 500 companies to every project."
+            },
+            {
+              "question": "What is the cost structure for Toro Marketing web services?",
+              "answer": "Costs are project-based or on retainer, tailored to the scale and needs of your web project."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
