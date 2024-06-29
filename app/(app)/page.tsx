@@ -123,7 +123,8 @@ export default function IndexPage() {
           <h3 className="px-[2rem] text-xl">Explore our solutions</h3>
           <div>
             {services.map((service) => (
-              <div
+              <Link
+                href={service.href ? service.href : '/'}
                 className="border-t grid grid-rows-1 md:grid-cols-8 items-start p-[2rem] gap-4 md:hover:bg-muted"
                 key={service.title}
               >
@@ -137,7 +138,7 @@ export default function IndexPage() {
                 <p className="text-muted-foreground row-span-1 md:col-span-3">
                   {service.description}
                 </p>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
