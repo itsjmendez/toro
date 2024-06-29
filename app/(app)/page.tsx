@@ -8,11 +8,11 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card';
-import { projects } from '@/content/projects';
+import { projects } from '@/constants/projects';
 import { Badge } from '@/components/ui/badge';
 import Link from 'next/link';
 import { buttonVariants } from '@/components/ui/button';
-import { services } from '@/content/services';
+import { services } from '@/constants/services';
 import Cta from '@/components/cta';
 import { Cross } from '@/components/ui/cross';
 
