@@ -1,4 +1,4 @@
-import { services } from '@/content/services';
+import { services } from '@/constants/services';
 import Link from 'next/link';
 
 const ServicesPage = () => {
