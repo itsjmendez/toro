@@ -29,10 +29,10 @@ export default function ServiceSection({
         <div className="relative flex flex-col gap-40">
           <span />
           <div className=" flex flex-col gap-8">
-            <h2 className="px-[2rem] font-semibold tracking-tight text-4xl md:text-5xl lg:text-6xl">
+            <h2 className="px-6 font-semibold tracking-tight text-4xl md:text-5xl lg:text-6xl">
               {service.title}
             </h2>
-            <h3 className="px-[2rem] text-xl">{service.intro}</h3>
+            <h3 className="px-6 text-xl">{service.intro}</h3>
           </div>
           <span />
         </div>
@@ -56,7 +56,7 @@ const ErrorMessage = () => (
   <div className="container">
     <div className="h-[calc(100svh-10.1rem)] relative flex flex-col gap-40 border-x justify-center items-center">
       <span />
-      <div className="px-[2rem] flex flex-col gap-4">
+      <div className="px-6 flex flex-col gap-4">
         <h1 className="text-xl md:text-4xl ">
           Oops! We couldn&apos;t find the service you&apos;re looking for.
         </h1>
