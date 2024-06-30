@@ -7,7 +7,7 @@ const SiteFooter = () => {
     <footer>
       <Separator />
       <div className="container">
-        <div className="flex justify-between items-center border-x py-10 px-[2rem]">
+        <div className="flex justify-between items-center border-x py-10 px-6">
           <div>
             <p>&copy; {currentYear} Toro Marketing</p>
           </div>
