@@ -8,7 +8,7 @@ const Cta = ({ header, subheader, button }: CtaProps) => {
   return (
     <div className="relative py-10 md:py-24 border-x bg-primary">
       <div className="container flex flex-col gap-4 justify-center items-center">
-        <h3 className="text-2xl md:text-4xl uppercase text-center text-primary-foreground">
+        <h3 className="tracking-tight text-4xl md:text-5xl lg:text-6xl uppercase text-center text-primary-foreground font-semibold ">
           {header}
         </h3>
         {subheader && (
