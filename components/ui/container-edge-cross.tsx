@@ -1,33 +1,33 @@
 import { Cross } from './cross';
 
 interface ContainerEdgeCrossProps {
-  tr?: boolean; // top right cross
-  tl?: boolean; // top left cross
-  br?: boolean; // bottom right cross
-  bl?: boolean; // bottom left cross
+  trc?: boolean; // top right cross
+  tlc?: boolean; // top left cross
+  brc?: boolean; // bottom right cross
+  blc?: boolean; // bottom left cross
   children?: React.ReactNode;
 }
 
 const ContainerEdgeCross = ({
-  tr,
-  tl,
-  br,
-  bl,
+  trc,
+  tlc,
+  brc,
+  blc,
   children,
 }: ContainerEdgeCrossProps) => {
   return (
-    <div className="container">
-      <div className="relative flex flex-col gap-8 border-x">
-        {tr && (
+    <div className="">
+      <div className="relative border-y">
+        {trc && (
           <Cross className="absolute h-6 w-6 -top-3 -right-3 dark:text-white text-black" />
         )}
-        {tl && (
+        {tlc && (
           <Cross className="absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black" />
         )}
-        {br && (
+        {brc && (
           <Cross className="absolute h-6 w-6 -bottom-3 -right-3 dark:text-white text-black" />
         )}
-        {bl && (
+        {blc && (
           <Cross className="absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black" />
         )}
         {children ? (
