@@ -6,10 +6,10 @@ const ServicesPage = () => {
     <div className="container">
       <div className="relative flex flex-col gap-8 border-x">
         <span />
-        <h2 className="px-[2rem] font-semibold tracking-tight text-4xl md:text-5xl lg:text-6xl">
+        <h2 className="px-6 font-semibold tracking-tight text-4xl md:text-5xl lg:text-6xl">
           What part of your business needs growth?
         </h2>
-        <h3 className="px-[2rem] text-xl">Explore our solutions</h3>
+        <h3 className="px-6 text-xl">Explore our solutions</h3>
         <div>
           {services.map((service) => (
             <Link
