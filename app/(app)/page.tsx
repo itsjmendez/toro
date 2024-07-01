@@ -22,13 +22,13 @@ export default function IndexPage() {
         <div className="flex flex-col gap-6">
           <HeroSection />
           <ContainerEdgeCross tlc={true} brc={true}>
-            <div className="relative flex flex-col gap-6 bg-secondary">
+            <div className="relative flex flex-col gap-20 md:gap-40 bg-muted">
               <span />
               <div className="flex flex-col gap-8">
-                <h2 className="px-4 md:px-6  font-semibold tracking-tight text-4xl md:text-5xl lg:text-6xl">
+                <h2 className="px-4 md:px-6  font-semibold tracking-tight text-2xl md:text-5xl lg:text-6xl">
                   Bring a cohesive consumer experience
                 </h2>
-                <h3 className="px-4 md:px-6  text-xl text-muted-foreground">
+                <h3 className="px-4 md:px-6 text-xl text-muted-foreground">
                   Attract, engage, convert and retain customers with ease. We
                   bring our experts to activate your brand with more
                   touchpoints, creating a seamless integration into your brand’s
@@ -38,11 +38,24 @@ export default function IndexPage() {
               <span />
             </div>
           </ContainerEdgeCross>
+          <ContainerEdgeCross tlc={true} trc={true} blc={true} brc={true}>
+            <div className="">
+              <video
+                src="./hero-1.mp4"
+                className="h-full w-full object-contain"
+                autoPlay
+                loop
+                muted
+                preload="auto"
+                playsInline
+              />
+            </div>
+          </ContainerEdgeCross>
           {/* Recent Projects Section */}
           <ContainerEdgeCross tlc={true} brc={true}>
             <div className="relative flex flex-col gap-8">
               <span />
-              <h2 className="px-4 md:px-6  font-semibold tracking-tight text-4xl md:text-5xl lg:text-6xl text-primary">
+              <h2 className="px-4 md:px-6 font-semibold tracking-tight text-4xl md:text-5xl lg:text-6xl ">
                 Our recent projects
               </h2>
               <div className="grid sm:grid-cols-1 md:grid-cols-3">
@@ -50,8 +63,10 @@ export default function IndexPage() {
                   <div key={project.title}>
                     <Card className="w-full md:min-h-80 justify-between flex flex-col rounded-none border-0 border-t md:hover:bg-muted shadow-none">
                       <CardHeader>
-                        <CardTitle>{project.title}</CardTitle>
-                        <CardDescription className="text-xl md:line-clamp-2">
+                        <CardTitle className="text-2xl md:text-2xl font-bold">
+                          {project.title}
+                        </CardTitle>
+                        <CardDescription className="line-clamp-2 text-base">
                           {project.description}
                         </CardDescription>
                       </CardHeader>
@@ -61,7 +76,7 @@ export default function IndexPage() {
                             <li key={task}>
                               <Badge
                                 variant="outline"
-                                className="rounded-none text-sm font-semibold mt-2"
+                                className="rounded-none text-base font-semibold mt-2"
                               >
                                 {task}
                               </Badge>
@@ -72,10 +87,11 @@ export default function IndexPage() {
                       <CardFooter className="w-full text-end">
                         <Link
                           href={'/'}
-                          className={`px-0 ${buttonVariants({
-                            variant: 'link',
-                            size: 'sm',
-                          })}`}
+                          className={`px-0 text-base underline ${buttonVariants(
+                            {
+                              variant: 'link',
+                            }
+                          )}`}
                         >
                           Learn More
                         </Link>
@@ -90,7 +106,7 @@ export default function IndexPage() {
           <ContainerEdgeCross tlc={true} brc={true}>
             <div className="relative flex flex-col gap-8">
               <span />
-              <h2 className="px-4 md:px-6  font-semibold tracking-tight text-4xl md:text-5xl lg:text-6xl text-primary">
+              <h2 className="px-4 md:px-6  font-semibold tracking-tight text-4xl md:text-5xl lg:text-6xl ">
                 What part of your business needs growth?
               </h2>
               <h3 className="px-4 md:px-6  text-xl text-muted-foreground">
