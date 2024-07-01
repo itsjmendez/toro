@@ -49,6 +49,7 @@ export const HeroSection = () => {
           autoPlay={true}
           preload="auto"
           muted={true}
+          playsInline={true}
         >
           <source src="./hero-1.mp4" type="video/mp4" />
         </video>
