@@ -47,8 +47,8 @@ export const HeroSection = () => {
           className="object-cover h-[70svh] w-full"
           loop
           autoPlay={true}
-          preload="none"
-          muted
+          preload="auto"
+          muted={true}
         >
           <source src="./hero-1.mp4" type="video/mp4" />
         </video>
