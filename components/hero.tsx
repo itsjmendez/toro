@@ -6,7 +6,7 @@ import ContainerEdgeCross from './ui/container-edge-cross';
 export const HeroSection = () => {
   return (
     <ContainerEdgeCross>
-      <div className="relative p-4 md:p-6 h-[calc(100vh-8vh)]">
+      <div className="relative p-4 md:p-6 h-[calc(100svh-8svh)]">
         <div className="relative flex flex-col gap-8 h-full justify-center md:items-center text-center ">
           <h1 className="font-semibold tracking-tight text-4xl md:text-5xl">
             Get the marketing your company deserves.
@@ -22,25 +22,27 @@ export const HeroSection = () => {
             technology, branding, and customer journeys for impactful results.
           </p>
 
-          <div className="flex flex-col md:flex-row gap-4 md:items-center">
+          <div className="flex flex-col gap-4 md:items-center">
+            <span>
+              <Link
+                href="/"
+                className={`rounded-3xl ${buttonVariants({
+                  variant: 'default',
+                  size: 'default',
+                })}`}
+              >
+                Free Consultation
+                <ArrowRight className="ml-1 h-4 w-4" />
+              </Link>
+            </span>
             <Link
               href="/services"
-              className={`md:w-72 ${buttonVariants({
-                variant: 'default',
-                size: 'lg',
+              className={`underline ${buttonVariants({
+                variant: 'link',
+                size: 'default',
               })}`}
             >
               Our Solutions
-            </Link>
-            <Link
-              href="/"
-              className={`md:w-72 ${buttonVariants({
-                variant: 'default',
-                size: 'lg',
-              })}`}
-            >
-              Get a Free Consultation
-              <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </div>
         </div>
