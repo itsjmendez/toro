@@ -16,29 +16,27 @@ const ContainerEdgeCross = ({
   children,
 }: ContainerEdgeCrossProps) => {
   return (
-    <div className="">
-      <div className="relative border-y">
-        {trc && (
-          <Cross className="absolute h-6 w-6 -top-3 -right-3 dark:text-white text-black" />
-        )}
-        {tlc && (
-          <Cross className="absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black" />
-        )}
-        {brc && (
-          <Cross className="absolute h-6 w-6 -bottom-3 -right-3 dark:text-white text-black" />
-        )}
-        {blc && (
-          <Cross className="absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black" />
-        )}
-        {children ? (
-          children
-        ) : (
-          <>
-            <span />
-            <span />
-          </>
-        )}
-      </div>
+    <div className="relative border-y">
+      {trc && (
+        <Cross className="absolute h-6 w-6 -top-3 -right-3 dark:text-white text-black" />
+      )}
+      {tlc && (
+        <Cross className="absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black" />
+      )}
+      {brc && (
+        <Cross className="absolute h-6 w-6 -bottom-3 -right-3 dark:text-white text-black" />
+      )}
+      {blc && (
+        <Cross className="absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black" />
+      )}
+      {children ? (
+        children
+      ) : (
+        <>
+          <span />
+          <span />
+        </>
+      )}
     </div>
   );
 };
