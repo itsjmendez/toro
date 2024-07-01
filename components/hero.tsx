@@ -14,27 +14,26 @@ export const HeroSection = () => {
           <h2 className="tracking-tight text-xl md:text-3xl font-semibold mb-1">
             No More Missed Opportunities,
             <br />
-            More Success.
+            Only Gains.
           </h2>
           <p className="text-lg text-muted-foreground tracking-tight">
-            Boost visibility with our integrated marketing that blends
+            Drive growth with our integrated marketing solutions,
             <br />
-            technology, branding, and customer journeys for impactful results.
+            fusing technology, branding, and customer journeys for powerful
+            results.
           </p>
 
-          <div className="flex flex-col gap-4 md:items-center">
-            <span>
-              <Link
-                href="/"
-                className={`rounded-3xl ${buttonVariants({
-                  variant: 'default',
-                  size: 'default',
-                })}`}
-              >
-                Free Consultation
-                <ArrowRight className="ml-1 h-4 w-4" />
-              </Link>
-            </span>
+          <div className=" flex flex-col gap-4 ">
+            <Link
+              href="/"
+              className={`${buttonVariants({
+                variant: 'round',
+                size: 'default',
+              })}`}
+            >
+              Free Consultation
+              <ArrowRight className="ml-1 h-4 w-4" />
+            </Link>
             <Link
               href="/services"
               className={`underline ${buttonVariants({
