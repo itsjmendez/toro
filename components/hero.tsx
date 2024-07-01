@@ -6,23 +6,26 @@ import ContainerEdgeCross from './ui/container-edge-cross';
 export const HeroSection = () => {
   return (
     <ContainerEdgeCross>
-      <div className="relative p-4 md:p-6 overflow-hidden">
-        <div className="relative flex flex-col gap-8 justify-center h-full">
-          <h1 className="font-semibold tracking-tight text-4xl md:text-5xl lg:text-6xl uppercase">
-            Elevate your brand
+      <div className="relative p-4 md:p-6 h-[calc(100vh-8vh)]">
+        <div className="relative flex flex-col gap-8 h-full justify-center md:items-center text-center ">
+          <h1 className="font-semibold tracking-tight text-4xl md:text-5xl">
+            Get the marketing your company deserves.
           </h1>
-          <div>
-            <h2 className="tracking-tight text-2xl md:text-3xl font-semibold mb-1">
-              Get modern strategies.
-            </h2>
-            <p className="text-xl text-muted-foreground">
-              Sell more with integrated marketing.
-            </p>
-          </div>
-          <div className="flex flex-col md:flex-row gap-2 md:items-center">
+          <h2 className="tracking-tight text-xl md:text-3xl font-semibold mb-1">
+            No More Missed Opportunities,
+            <br />
+            More Success.
+          </h2>
+          <p className="text-lg text-muted-foreground tracking-tight">
+            Boost visibility with our integrated marketing that blends
+            <br />
+            technology, branding, and customer journeys for impactful results.
+          </p>
+
+          <div className="flex flex-col md:flex-row gap-4 md:items-center">
             <Link
               href="/services"
-              className={`border-none rounded-none ${buttonVariants({
+              className={`md:w-72 ${buttonVariants({
                 variant: 'default',
                 size: 'lg',
               })}`}
@@ -31,28 +34,16 @@ export const HeroSection = () => {
             </Link>
             <Link
               href="/"
-              className={`rounded-none ${buttonVariants({
-                variant: 'outline',
+              className={`md:w-72 ${buttonVariants({
+                variant: 'default',
                 size: 'lg',
               })}`}
             >
               Get a Free Consultation
-              <ArrowRight className="ml-2 h-4 w-4 text-primary" />
+              <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </div>
         </div>
-      </div>
-      <div className="relative">
-        <video
-          className="object-cover h-[70svh] w-full"
-          loop
-          autoPlay={true}
-          preload="auto"
-          muted={true}
-          playsInline={true}
-        >
-          <source src="./hero-1.mp4" type="video/mp4" />
-        </video>
       </div>
     </ContainerEdgeCross>
   );
