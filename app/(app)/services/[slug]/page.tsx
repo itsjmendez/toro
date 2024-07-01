@@ -4,7 +4,6 @@ import { ServiceSlug } from 'types/service-slug';
 import { Service } from '@/types/service';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
-import { Separator } from '@/components/ui/separator';
 import ContainerEdgeCross from '@/components/ui/container-edge-cross';
 import Cta from '@/components/cta';
 
@@ -22,22 +21,23 @@ export default function ServiceSection({
   }
 
   return (
-    <>
-      <ContainerEdgeCross bl={true} br={true} />
-      <Separator />
-      <ContainerEdgeCross>
-        <div className="relative flex flex-col gap-40">
-          <span />
-          <div className=" flex flex-col gap-8">
-            <h2 className="px-6 font-semibold tracking-tight text-4xl md:text-5xl lg:text-6xl">
-              {service.title}
-            </h2>
-            <h3 className="px-6 text-xl">{service.intro}</h3>
-          </div>
-          <span />
+    <div className="container">
+      <div className="border-x">
+        <div className="flex flex-col gap-6">
+          <ContainerEdgeCross blc={true} brc={true}>
+            <div className="relative flex flex-col gap-40">
+              <span />
+              <div className=" flex flex-col gap-8">
+                <h2 className="px-6 font-semibold tracking-tight text-4xl md:text-5xl lg:text-6xl">
+                  {service.title}
+                </h2>
+                <h3 className="px-6 text-xl">{service.intro}</h3>
+              </div>
+              <span />
+            </div>
+          </ContainerEdgeCross>
         </div>
-      </ContainerEdgeCross>
-      <Separator />
+      </div>
       <Cta
         header={service.cta?.header || 'Get in touch'}
         subheader="We are here to help you with your business needs"
@@ -46,8 +46,7 @@ export default function ServiceSection({
           size: 'lg',
         }}
       />
-      <Separator />
-    </>
+    </div>
   );
 }
 
