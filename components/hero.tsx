@@ -2,15 +2,17 @@ import { buttonVariants } from '@/components/ui/button';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import ContainerEdgeCross from './ui/container-edge-cross';
+import { TextGenerateEffect } from './ui/text-generate-effect';
 
 export const HeroSection = () => {
   return (
     <ContainerEdgeCross>
       <div className="relative p-4 md:p-6 h-[calc(100svh-8svh)]">
         <div className="relative flex flex-col gap-8 h-full justify-center md:items-center text-center ">
-          <h1 className="font-semibold tracking-tight text-4xl md:text-5xl">
-            Get the marketing your company deserves.
-          </h1>
+          <TextGenerateEffect
+            words="The marketing your company deserves."
+            className="text-4xl md:text-5xl font-semibold tracking-tight"
+          />
           <h2 className="tracking-tight text-xl md:text-3xl font-semibold mb-1">
             No More Missed Opportunities,
             <br />
